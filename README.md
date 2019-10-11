@@ -42,8 +42,11 @@ and Spring Security provides an out-of-the box implementation of `org.springfram
 Spring Security uses the `UserDetails` interface, which contains the methods (getUserName()/getPassword()....) for allows to represent a user.
 
 
-### Step 3 : Customized Spring Security Configuration Extending WebSecurityConfigurerAdapter
+### Step 3 : Customized Spring Security Configuration Extending `WebSecurityConfigurerAdapter`
 
 Spring Boot implemented the default Spring Security autoconfiguration in `SecurityAutoConfiguration`. To switch the default web application security configuration and provide our own customized security configuration, we can create a
 
- configuration class that extends `WebSecurityConfigurerAdapter` and is annotated with `@EnableWebSecurity`.
+configuration class that extends `WebSecurityConfigurerAdapter` and is annotated with `@EnableWebSecurity`.
+
+# Authors
+ + [**Sallak Imane**](https://github.com/SallakImane)
